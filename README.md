@@ -13,7 +13,7 @@ rspec spec
 ```
 
 ## Execute the code
-This repository includes a file with the input to test the code, so, you just run in a terminal the following command.
+This repository includes a file with the input to test the code, so, just run in a terminal the following command.
 
 
 ```bash
