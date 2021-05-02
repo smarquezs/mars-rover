@@ -8,7 +8,7 @@ module Directions
       raise NotImplementedError
     end
 
-    def move(current_position)
+    def move
       raise NotImplementedError
     end
 
