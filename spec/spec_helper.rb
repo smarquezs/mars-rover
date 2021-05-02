@@ -1,7 +1,6 @@
 require 'byebug'
 
-Dir[File.expand_path("..", __dir__) + "/*.rb"].each { |f| require(f) }
-Dir[File.expand_path("..", __dir__) + "/directions/*.rb"].each { |f| require(f) }
+Dir[File.expand_path("..", __dir__) + "/src/**/*.rb"].each { |f| require(f) }
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
