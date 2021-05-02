@@ -24,11 +24,16 @@ The output for each rover should be its final coordinates and heading.
 ## Input and Output
 ### Test Input:
 
+```bash
 5 5
 1 2 N
 LMLMLMLMM
 3 3 E
+```
 
 ### Expected Output:
+
+```bash
 1 3 N
 5 1 E
+```
